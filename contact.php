@@ -29,7 +29,7 @@
   $contact->add_message( $_POST['name'], 'From');
   $contact->add_message( $_POST['email'], 'Email');
   $contact->add_message( $_POST['message'], 'Message', 10);
-  $contact->cc = array('dhivyadharshni910@gmail.com');
-  $contact->bcc = array('smiledd910@gmail.com');
+  $contact->cc = array('aldinosham@gmail.com');
+  $contact->bcc = array('aldinosham@gmail.com');
 
   echo $contact->send();
